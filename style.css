@@ -1,0 +1,33 @@
+@charset "ut-f8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(137, 186, 73);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.537);
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+#macaco_05{
+    display: block;
+    width: 60vw;
+    height: 50vh;
+    background-image: url("macaco_05.jpg");
+    background-size: cover;
+    background-position: left top;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p{
+    width: 50vw;
+    font-size: 2em;
+    margin: auto;
+}

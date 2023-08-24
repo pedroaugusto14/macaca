@@ -16,7 +16,7 @@ h1{
 
 #macaco_05{
     display: block;
-    width: 60vw;
+    width: 90vw;
     height: 50vh;
     background-image: url("macaco_05.jpg");
     background-size: cover;
@@ -27,7 +27,32 @@ h1{
 }
 
 p{
-    width: 50vw;
-    font-size: 2em;
+    width: 80vw;
+    font-size: 1.8em;
+    text-align: justify;
     margin: auto;
+    margin-bottom: 20px;
+}
+
+#resposta_01 {
+    display: none;
+}
+
+#revelar_01{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(225, 29, 105);
+}
+
+#revelar_01:hover {
+    width: 500px;
 }
